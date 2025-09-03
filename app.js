@@ -48,11 +48,11 @@ function App() {
 
       {/* Intro */}
       <header id="intro">
-        <img src="headshot.jpg" alt="Desmond Trotter Headshot" />
+        <img src="Trotter_Desmond.jpg" alt="Desmond Trotter Headshot" />
         <div className="intro-text">
           <h1>Desmond Trotter</h1>
-          <p>Computer Information Systems Student | Cloud | DevOps | Full-Stack | Project Management</p>
-          <a className="resume-link" href="resume.pdf" download>
+          <p>Computer Information Systems Student | Full-Stack | DevOps | Cloud | Project Management</p>
+          <a className="resume-link" href="Desmond_Trotter.pdf" download>
             Download Resume
           </a>
         </div>
@@ -62,9 +62,9 @@ function App() {
       <section id="skills" className="skills">
         <h2>Skills</h2>
         <div>
-          <span className="skill-badge">Cloud Computing</span>
+          <span className="skill-badge">Full-Stack Web Development</span>
           <span className="skill-badge">DevOps</span>
-          <span className="skill-badge">Full-Stack Web Dev</span>
+          <span className="skill-badge">Cloud Computing</span>
           <span className="skill-badge">Data Analysis</span>
           <span className="skill-badge">Project Management</span>
           <span className="skill-badge">Entrepreneurship</span>
