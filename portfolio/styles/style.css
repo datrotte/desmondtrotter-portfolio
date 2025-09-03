@@ -1,0 +1,61 @@
+/* Cottage core inspired: light red + cream */
+body {
+  margin: 0;
+  font-family: 'Gadugi', sans-serif;
+  background-color: #fffaf5;
+  color: #4b2c2c;
+  line-height: 1.6;
+}
+
+header, section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #f5d3ce;
+  border-bottom: 4px solid #e6a8a1;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #3a1f1f;
+}
+
+button, .resume-link {
+  background-color: #e6a8a1;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+button:hover, .resume-link:hover {
+  background-color: #d38880;
+}
+
+.experience, .projects, .contact {
+  background-color: #fffdf9;
+  margin: 30px auto;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 40px;
+}
+
+.project-card {
+  border: 1px solid #f5d3ce;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #fffaf5;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
